@@ -1,5 +1,5 @@
 from loguru import logger
-
+## Calculating the total no of labours created in our class
 class Labour :
     total_count =0
     def __init__(self,first_name,last_name,wage):

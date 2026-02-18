@@ -116,6 +116,7 @@ def zero_sum_pairs(arr):
 # By implementing these strategies, you should be able to optimize your code and meet the expected time complexity. Good luck!
 
 ## Ai generated code
+## optimised code using two pointers
 def findAllPairs(arr):
     arr.sort()  # O(n log n) - Suggestion 2
     n = len(arr)
