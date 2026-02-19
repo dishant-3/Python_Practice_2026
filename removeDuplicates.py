@@ -5,10 +5,11 @@ def removeDups(arr):
     
     n = len(arr)
     res_arr =[]
+    ## if empty array then return blank array
     if n ==0:
         return []
     write_idx=1
-    # res_arr[0] = arr[0]
+    ## Searching duplicates from index 1 because first element can't be dduplicate alone
     for i in range(1,n):
         if arr[i] != arr[i-1]:
             arr[write_idx] = arr[i]
@@ -18,7 +19,8 @@ def removeDups(arr):
     # return arr[:write_idx]
     return res_arr
 
-## Approach 1 : Iteratng through the sorted array and checking with prev element
+### Approach 1 : Iteratng through the sorted array and checking with prev element
+###         We do not save the elements in a new array.
 # def removeDuplicates(arr):
 #     if not arr:
 #         return 0
