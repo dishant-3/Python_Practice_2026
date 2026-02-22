@@ -2,6 +2,7 @@ def findUnion(a,b):
     combined_li = a+b
     union_res = list(set(combined_li))
     return union_res
+
 a1 = [1, 2, 3, 2, 1]
 b1 = [3, 2, 2, 3, 3, 2]
 res1 = findUnion(a1,b1)

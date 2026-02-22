@@ -1,6 +1,7 @@
 ## Remove duplicates from sorted array
 
-## Approach 0: Creating new array and storing results in it
+## Approach 0: Iteratng through the sorted array and checking with prev element
+### Creating new array and storing results in it
 def removeDups(arr):
     
     n = len(arr)

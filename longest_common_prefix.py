@@ -38,35 +38,35 @@ res3 = longestCommonPrefix(arr3)
 print(f"Input:{arr3}\n Result:{res3}")
 
 ## TUF Code
-# class Solution:
-#     # Returns the longest common prefix from a list of strings
-#     def longestCommonPrefix(self, strs):
-#         # Handle empty list case
-#         if not strs:
-#             return ""
+class Solution:
+    # Returns the longest common prefix from a list of strings
+    def longestCommonPrefix(self, strs):
+        # Handle empty list case
+        if not strs:
+            return ""
         
-#         # Sort the list lexicographically
-#         strs.sort()
+        # Sort the list lexicographically
+        strs.sort()
         
-#         # First string in sorted list
-#         first = strs[0]
+        # First string in sorted list
+        first = strs[0]
         
-#         # Last string in sorted list
-#         last = strs[-1]
+        # Last string in sorted list
+        last = strs[-1]
         
-#         # Store the common prefix characters
-#         ans = []
+        # Store the common prefix characters
+        ans = []
         
-#         # Compare characters of first and last string
-#         for i in range(min(len(first), len(last))):
-#             # Stop if characters differ
-#             if first[i] != last[i]:
-#                 return ''.join(ans)
-#             # Add matching character to result
-#             ans.append(first[i])
+        # Compare characters of first and last string
+        for i in range(min(len(first), len(last))):
+            # Stop if characters differ
+            if first[i] != last[i]:
+                return ''.join(ans)
+            # Add matching character to result
+            ans.append(first[i])
         
-#         # Return the longest common prefix
-#         return ''.join(ans)
+        # Return the longest common prefix
+        return ''.join(ans)
 
 # # Run the function with sample input
 # if __name__ == "__main__":
@@ -82,5 +82,5 @@ print(f"Input:{arr3}\n Result:{res3}")
 #     # Print the result
 #     print("Longest Common Prefix:", result)  
 
-
+## https://www.geeksforgeeks.org/dsa/longest-common-prefix-using-sorting/
 

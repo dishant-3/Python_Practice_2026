@@ -22,7 +22,7 @@ class Solution:
             return -1
         if arr[0] ==1:
             return res_idx
-        while low<high:
+        while low<=high:
             mid = low + (high-low)//2
             if arr[mid] == search_ele:
                 res_idx = mid
