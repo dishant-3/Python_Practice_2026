@@ -8,9 +8,16 @@
 #     print(f"Outer continues: i={i}\n")
 
 
-my_dict = {'name': 'John', 'age': 30, 'city': 'Delhi'}
-# keys = my_dict.keys()
-# print(keys)  # dict_keys(['name', 'age', 'city'])
+# my_dict = {'name': 'John', 'age': 30, 'city': 'Delhi'}
+# # keys = my_dict.keys()
+# # print(keys)  # dict_keys(['name', 'age', 'city'])
 
-res_li = [key for key in my_dict]
-print(res_li)
+# res_li = [key for key in my_dict]
+# print(res_li)
+
+num1 = 157
+num2 = 0
+try:
+    print(num1//num2)
+except ZeroDivisionError:
+    pass
