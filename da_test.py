@@ -15,9 +15,12 @@
 # res_li = [key for key in my_dict]
 # print(res_li)
 
-num1 = 157
-num2 = 0
-try:
-    print(num1//num2)
-except ZeroDivisionError:
-    pass
+# num1 = 157
+# num2 = 0
+# try:
+#     print(num1//num2)
+# except ZeroDivisionError:
+#     pass
+
+res_arr =[]
+print(f"Length of Blank array:{len(res_arr)}")
