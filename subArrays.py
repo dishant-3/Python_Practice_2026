@@ -29,6 +29,7 @@ def all_subarrays(arr):
 
 # Example usage:
 arr = [1, 2, 3]
+print("Before main method")
 print(all_subarrays(arr))
 
 def subArrays(arr):

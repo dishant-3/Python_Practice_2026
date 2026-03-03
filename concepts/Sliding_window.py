@@ -33,12 +33,15 @@ print(f"Result:{res}")
 ## Check the condition and return the result
 # 
 ## Approach 2 : Variable size Sliding window 
-# We increase the right index till our conditionis true
+# We increase the right index till our condition is true
 # When our condition is false then we reduce windw size by increasing the left index
-# Then we continue to increase the right index in step 1 till our cndition is true.
+# Then we continue to increase the right index in step 1 till our condition is true.
 # Finally return result
 
 ## Scenario 3: Number of subarrays where condition
+# The problems are tobe solved using 
+
+## Scenario 4: Shortest/Minimum window where condition
 
 
 
