@@ -1,0 +1,13 @@
+from loguru import logger
+import re
+inp_string = """Hello my Number is 123456789 and
+            my friend's number is 987654321"""
+            
+regex = '\d+'
+first_match = re.search(regex, inp_string)
+logger.info(f"First Match:{first_match}")
+
+
+pattern = re.compile('\d+')
+logger.info(f"All matches:{pattern.findall(inp_string)}")
+logger.info(f"First match using compile:{pattern.search(inp_string)}")

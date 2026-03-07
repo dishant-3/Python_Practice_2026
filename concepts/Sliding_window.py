@@ -43,5 +43,3 @@ print(f"Result:{res}")
 
 ## Scenario 4: Shortest/Minimum window where condition
 
-
-
