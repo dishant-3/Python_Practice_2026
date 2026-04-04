@@ -39,6 +39,19 @@ def pushZerosToEnd(arr):
     #     arr[count] = 0
     #     count += 1
     # # return arr
+
+    # def rearrange(ip_arr):
+     
+    #  n = len(ip_arr)
+    #  res_arr =[]
+    #  for i in range n:
+    #     if ip_arr[i]!=0:
+    #         res_arr.append(ip_arr[i])
+    # n2 = len(res_arr)
+    # while n2<n:
+    #     res_arr.append(0)
+    #     n2+=1
+    # return res_arr 
     
     ## Approach3: In-place swap
     n = len(arr)

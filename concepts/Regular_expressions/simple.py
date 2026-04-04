@@ -46,7 +46,7 @@ print(grp.groups())
 
 ## Retrieve a single group
 grp = re.search(r'([\d]{2})-([\d]{2})-([\d]{4})','26-08-2020')
-print(grp.group(0))
+print(grp.group(0)) ## group(0) is entire match
 print(grp.group(1))
 print(grp.group(2))
 print(grp.group(3))
