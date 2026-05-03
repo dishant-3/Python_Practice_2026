@@ -1,0 +1,5 @@
+my_dict = {"data":[1,2,3,4,5,6]}
+my_data = my_dict["data"]
+print(my_data)
+modified_data = my_data*2
+print(modified_data)
