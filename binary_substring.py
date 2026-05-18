@@ -1,3 +1,4 @@
+# https://www.geeksforgeeks.org/problems/binary-string-1587115620/1?page=3&category=Arrays,Strings&difficulty=Basic,Easy&status=solved&sortBy=submissions
 # def binarySubstring(s):
 #     n = len(s)
 #     substr=[]

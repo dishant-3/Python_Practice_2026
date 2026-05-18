@@ -28,7 +28,7 @@ def all_subarrays(arr):
     return subarrays
 
 # Example usage:
-arr = [1, 2, 3]
+arr = [1, 2, 3,4]
 print("Before main method")
 print(all_subarrays(arr))
 
