@@ -29,16 +29,16 @@ def pushZerosToEnd(arr):
     # return temp
     
     # # ## Approach 2: In-place modification
-    # n = len(arr)
-    # count = 0  ## index for next non-zero element
-    # for i in range(n):
-    #     if arr[i] != 0:
-    #         arr[count] = arr[i]
-    #         count += 1
-    # while count < n:  ## Now make all the remaining elements in the array zero
-    #     arr[count] = 0
-    #     count += 1
-    # # return arr
+    n = len(arr)
+    count = 0  ## index for next non-zero element
+    for i in range(n):
+        if arr[i] != 0:
+            arr[count] = arr[i]
+            count += 1
+    while count < n:  ## Now make all the remaining elements in the array zero
+        arr[count] = 0
+        count += 1
+    return arr
 
     # def rearrange(ip_arr):
      

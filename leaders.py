@@ -1,4 +1,5 @@
 # Databricks notebook source
+# https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?page=1&category=Arrays,Strings&difficulty=Basic,Easy&status=solved&sortBy=submissions
 # # Sol1:
 # def leaders(arr):
 #     res_arr=[]
