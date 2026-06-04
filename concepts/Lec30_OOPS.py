@@ -108,6 +108,3 @@ d = Dog("Buddy")
 d.info()
 d.details()
 ## Python does support multiple inheritance but it is not recommended as good practice
-
-
-
